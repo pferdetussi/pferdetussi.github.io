@@ -1,0 +1,92 @@
+@font-face {
+	font-family: 'userinterface';
+	src:url('/web/20171024221100im_/http://www.heilehufe.de/css/fonts/userinterface.eot');
+	src:url('/web/20171024221100im_/http://www.heilehufe.de/css/fonts/userinterface.eot#iefix') format('embedded-opentype'),
+		url('/web/20171024221100im_/http://www.heilehufe.de/css/fonts/userinterface.woff') format('woff'),
+		url('/web/20171024221100im_/http://www.heilehufe.de/css/fonts/userinterface.ttf') format('truetype'),
+		url('/web/20171024221100im_/http://www.heilehufe.de/css/fonts/userinterface.svg#userinterface') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('/web/20171024221100im_/http://www.heilehufe.de/css/fonts/opensans-regular-webfont.eot');
+    src: url('/web/20171024221100im_/http://www.heilehufe.de/css/fonts/opensans-regular-webfont.eot#iefix') format('embedded-opentype'),
+         url('/web/20171024221100im_/http://www.heilehufe.de/css/fonts/opensans-regular-webfont.woff') format('woff'),
+         url('/web/20171024221100im_/http://www.heilehufe.de/css/fonts/opensans-regular-webfont.ttf') format('truetype'),
+         url('/web/20171024221100im_/http://www.heilehufe.de/css/fonts/opensans-regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('/web/20171024221100im_/http://www.heilehufe.de/css/fonts/opensans-bold-webfont.eot');
+    src: url('/web/20171024221100im_/http://www.heilehufe.de/css/fonts/opensans-bold-webfont.eot#iefix') format('embedded-opentype'),
+         url('/web/20171024221100im_/http://www.heilehufe.de/css/fonts/opensans-bold-webfont.woff') format('woff'),
+         url('/web/20171024221100im_/http://www.heilehufe.de/css/fonts/opensans-bold-webfont.ttf') format('truetype'),
+         url('/web/20171024221100im_/http://www.heilehufe.de/css/fonts/opensans-bold-webfont.svg#open_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'oswaldregular';
+    src: url('/web/20171024221100im_/http://www.heilehufe.de/css/fonts/oswald-regular-webfont.eot');
+    src: url('/web/20171024221100im_/http://www.heilehufe.de/css/fonts/oswald-regular-webfont.eot#iefix') format('embedded-opentype'),
+         url('/web/20171024221100im_/http://www.heilehufe.de/css/fonts/oswald-regular-webfont.woff') format('woff'),
+         url('/web/20171024221100im_/http://www.heilehufe.de/css/fonts/oswald-regular-webfont.ttf') format('truetype'),
+         url('/web/20171024221100im_/http://www.heilehufe.de/css/fonts/oswald-regular-webfont.svg#oswaldregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'shadows_into_lightregular';
+    src: url('/web/20171024221100im_/http://www.heilehufe.de/css/fonts/shadowsintolight-webfont.eot');
+    src: url('/web/20171024221100im_/http://www.heilehufe.de/css/fonts/shadowsintolight-webfont.eot#iefix') format('embedded-opentype'),
+         url('/web/20171024221100im_/http://www.heilehufe.de/css/fonts/shadowsintolight-webfont.woff') format('woff'),
+         url('/web/20171024221100im_/http://www.heilehufe.de/css/fonts/shadowsintolight-webfont.ttf') format('truetype'),
+         url('/web/20171024221100im_/http://www.heilehufe.de/css/fonts/shadowsintolight-webfont.svg#shadows_into_lightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'oswaldbold';
+    src: url('/web/20171024221100im_/http://www.heilehufe.de/css/fonts/oswald-bold-webfont.eot');
+    src: url('/web/20171024221100im_/http://www.heilehufe.de/css/fonts/oswald-bold-webfont.eot#iefix') format('embedded-opentype'),
+         url('/web/20171024221100im_/http://www.heilehufe.de/css/fonts/oswald-bold-webfont.woff') format('woff'),
+         url('/web/20171024221100im_/http://www.heilehufe.de/css/fonts/oswald-bold-webfont.ttf') format('truetype'),
+         url('/web/20171024221100im_/http://www.heilehufe.de/css/fonts/oswald-bold-webfont.svg#oswaldbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+
+/*
+     FILE ARCHIVED ON 22:11:00 Oct 24, 2017 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 12:29:44 Apr 16, 2018.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 129.711 (3)
+  esindex: 0.01
+  captures_list: 257.004
+  CDXLines.iter: 11.634 (3)
+  PetaboxLoader3.datanode: 210.417 (4)
+  exclusion.robots.fetch: 109.394 (2)
+  exclusion.robots: 109.999
+  exclusion.robots.policy: 0.292
+  RedisCDXSource: 2.101
+  PetaboxLoader3.resolve: 87.763
+  load_resource: 174.107
+*/

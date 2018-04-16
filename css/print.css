@@ -1,0 +1,40 @@
+@media print 
+{
+	* { background: transparent !important; color: black !important; text-shadow: none !important; filter:none !important; -ms-filter: none !important; } /* Black prints faster: h5bp.com/s */
+	a, a:visited { text-decoration: underline; }
+	abbr[title]:after { content: " (" attr(title) ")"; }
+	a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }  /* Don't show links for images, or javascript/internal links */
+	pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
+	thead { display: table-header-group; } /* h5bp.com/t */
+	tr, img { page-break-inside: avoid; }
+	img { max-width: 100% !important; }
+	@page { margin: 0.5cm; }
+	p, h2, h3 { orphans: 3; widows: 3; }
+	h2, h3 { page-break-after: avoid; }
+  
+	.navi, form, aside[role="complementary"] {display:none}
+
+	.accHandler + * {display:block;}
+}
+/*
+     FILE ARCHIVED ON 22:11:03 Oct 24, 2017 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 12:29:44 Apr 16, 2018.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 164.979 (3)
+  esindex: 0.019
+  captures_list: 230.496
+  CDXLines.iter: 15.785 (3)
+  PetaboxLoader3.datanode: 157.978 (4)
+  exclusion.robots.fetch: 43.137 (2)
+  exclusion.robots: 43.802
+  exclusion.robots.policy: 0.324
+  RedisCDXSource: 1.378
+  PetaboxLoader3.resolve: 107.526
+  load_resource: 127.543
+*/

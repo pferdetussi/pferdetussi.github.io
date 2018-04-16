@@ -1,0 +1,87 @@
+#cboxOverlay { background: rgba(0, 0, 0, 0.5); }
+#cboxWrapper { background:white; padding:3px; box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2); }
+#cboxLoadedContent { background: white; }
+#cboxPrevious { top:50%; left:-3em; height:25px; width:25px; }
+#cboxPrevious:before { font-family: 'userinterface'; content: 'N'; color: #949494; font-size: 16px; height: 25px; line-height: 25px; width: 25px; }
+#cboxPrevious:hover:before { background: #949494; color: white; border-radius:50%; }
+#cboxNext { top:50%; right:-3em; height:25px; width:25px; }
+#cboxNext:before { font-family: 'userinterface'; content: 'M'; color: #949494; font-size: 16px; height: 25px; line-height: 25px; width: 25px; }
+#cboxNext:hover:before { background: #949494; color: white; border-radius:50%; }
+#cboxClose { top: -3px; right: -28px; width: 25px; height: 25px; background: white; }
+#cboxClose:hover { background: #949494; }
+#cboxClose:before { font-family: 'userinterface'; content: 'K'; color: #949494; font-size: 12px; top: 5px; left: 6px; }
+#cboxClose:hover:before { color: white; }
+#cboxCurrent { bottom:-2.4em; left:1em; color:#949494; font-family: arial; font-size: 12px; line-height: 2em; position:absolute }
+#cboxTitle { color: #949494; font-family: arial; font-size: 16px; background: white; line-height:2em; min-height:2em; position:absolute; bottom:-2em; left:0; text-align:center; width:100%; margin:0 0 0 -3px; border-left: 3px solid #FFFFFF; border-right: 3px solid #FFFFFF; }
+#cboxSlideshow { color:#949494; font-size: 12px; font-weight: bold; font-family: arial; }
+#cboxSlideshow:hover { color:#ddd; font-size: 12px; font-weight: bold; font-family: arial; }
+#colorbox:after,
+#colorbox *:after { content:""!important; }
+ #colorbox, #cboxOverlay, {
+position:absolute;
+top:0;
+left:0;
+z-index:9999;
+overflow:hidden
+}
+#colorbox { z-index:1100 }
+#cboxOverlay { position:fixed; width:100%; height:100%; top:0; left:0; background:rgba(0,0,0,0.7); z-index: 1000; }
+#cboxMiddleLeft,
+#cboxBottomLeft { clear:left }
+#cboxContent { position:relative; background:#fff;/*overflow:hidden*/ }
+#cboxLoadedContent { overflow:auto; -webkit-overflow-scrolling:touch; }
+#cboxLoadingOverlay,
+#cboxLoadingGraphic { position:absolute; top:0; left:0; width:100%; height:100% }
+#cboxPrevious,
+#cboxNext,
+#cboxClose,
+#cboxSlideshow { cursor:pointer }
+.cboxPhoto { float:left; border:0; display:block; max-width:none; -ms-interpolation-mode:bicubic; margin:auto }
+.cboxIframe { width:100%; height:100%; display:block; border:0; background:#fff }
+#colorbox * { box-sizing:content-box; -moz-box-sizing:content-box; -webkit-box-sizing:content-box; -o-box-sizing:content-box; -ms-box-sizing:content-box; }
+#cboxError { border:1px solid #ccc; padding:50px }
+#cboxLoadingGraphic { background:url(/web/20171024221842im_/http://www.heilehufe.de/images/loading.gif) no-repeat center center }
+#cboxSlideshow { position:absolute; bottom:4px; right:30px; border:0; overflow:visible; width:auto; background:none; -webkit-transition:500ms; -moz-transition:500ms; -ms-transition:500ms; -o-transition:500ms; margin:0; padding:0 }
+#cboxClose:before { position:absolute; text-indent:0; -webkit-transition:500ms; -moz-transition:500ms; -ms-transition:500ms; -o-transition:500ms }
+#cboxClose { position:absolute; text-indent:-9999px; border:0; overflow:visible; -webkit-transition:500ms; -moz-transition:500ms; -ms-transition:500ms; -o-transition:500ms; margin:0; padding:0 }
+.cboxIE #cboxTopLeft,
+.cboxIE #cboxTopCenter,
+.cboxIE #cboxTopRight,
+.cboxIE #cboxBottomLeft,
+.cboxIE #cboxBottomCenter,
+.cboxIE #cboxBottomRight,
+.cboxIE #cboxMiddleLeft,
+.cboxIE #cboxMiddleRight { filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF, endColorstr=#00FFFFFF)
+}
+#colorbox,
+#cboxPrevious:active,
+#cboxNext:active,
+#cboxSlideshow:active,
+#cboxClose:active { outline:0 }
+#cboxPrevious,
+#cboxNext { position:absolute; text-indent:-9999px; border:0; overflow:visible; background:none; margin:0; padding:0 }
+#cboxPrevious:before,
+#cboxNext:before { position:absolute; text-indent:0; -webkit-transition:500ms; -moz-transition:500ms; -ms-transition:500ms; -o-transition:500ms; top:2px; left:0 }
+
+/*
+     FILE ARCHIVED ON 22:18:42 Oct 24, 2017 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 12:29:43 Apr 16, 2018.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 51.013 (3)
+  esindex: 0.017
+  captures_list: 95.614
+  CDXLines.iter: 10.837 (3)
+  PetaboxLoader3.datanode: 78.223 (4)
+  exclusion.robots.fetch: 27.399 (2)
+  exclusion.robots: 28.11
+  exclusion.robots.policy: 0.347
+  RedisCDXSource: 1.902
+  PetaboxLoader3.resolve: 115.334
+  load_resource: 154.355
+*/

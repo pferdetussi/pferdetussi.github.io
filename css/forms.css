@@ -1,0 +1,60 @@
+/*=FORMS */
+form.default { width:100% }
+form.default ::-webkit-input-placeholder {color:#F9EFD6;}
+form.default :-moz-placeholder {color:#F9EFD6;}
+form.default fieldset { border:none }
+form.default fieldset > span { float: left; width: 6em; margin-top: 5px; }
+form.default label,
+form.default legend { float:left; width:35%; padding:1%; clear:both; min-height:43px; height:auto; padding-top:0.7em; }
+form.default label.radio { width:7.5%; clear:none; }
+form.default label small { color:#839100; line-height:1em }
+form.default input[type=text],
+form.default input[type=tel],
+form.default input[type=email],
+form.default input[type=file],
+form.default textarea { background:#DBBA8A; float:left; width:65%; padding:2%; border:none; margin-bottom: 1%; resize:none; position:relative; font:400 1em/1.2em Arial, sans-serif; }
+input[type=checkbox] { float:left; padding:2%; margin-top: 1%; }
+form.default button { float:right; box-shadow:1px 1px 0px rgba(0,0,0,0.3); background:#515A00; border:none; padding:2%; width:65%; color:#F9EFD6; }
+form.default button:hover  { cursor:pointer; background-color:#69440F; color:#553D11; }
+form.default button:active { cursor:pointer; background-color:#69440F; color:#553D11; }
+/*=VALIDATION */
+form.default .errorContainer { position:relative; }
+form.default label.error { width:100%; margin-bottom:2%; background:red; background:rgba(255,0,0,0.7); color:#fff; padding:5px; text-align:center; position:relative; animation:error 1s; -webkit-animation:error 1s; }
+form.default label.error:before { border-left:7px solid transparent; border-right:7px solid transparent; border-bottom:10px solid rgba(255,0,0,0.7); border-top:0; height:0; right:10px; position:absolute; top:-10px; width:0; content:"" }
+@keyframes error {  from {
+opacity:0;
+}
+to { opacity:1; }
+}
+@-webkit-keyframes error {  from {
+opacity:0;
+}
+to { opacity:1; }
+}
+/*=FORMNOTICES */
+body.javascript #formNotice { padding:20px; height:100px; }
+.specialfield { display:none }
+#newsletter-info { border:1px solid red; padding:1em; }
+
+/*
+     FILE ARCHIVED ON 22:04:48 Oct 24, 2017 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 12:29:44 Apr 16, 2018.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 90.84 (3)
+  esindex: 0.01
+  captures_list: 148.72
+  CDXLines.iter: 11.578 (3)
+  PetaboxLoader3.datanode: 106.163 (4)
+  exclusion.robots.fetch: 38.998 (2)
+  exclusion.robots: 40.102
+  exclusion.robots.policy: 0.62
+  RedisCDXSource: 2.113
+  PetaboxLoader3.resolve: 68.094
+  load_resource: 110.55
+*/
