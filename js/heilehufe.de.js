@@ -10,10 +10,6 @@ $(document).ready(function()
 	 */
 	$('.accHandler').accordion({openFirst:false});
 	
-	/**
-	 * ESCAPE THE MAILMASK LINKS
-	 */
-	$('a.escape').noSpam();
 
 	/**
 	 * CALL OF THE SLIDESHOW
