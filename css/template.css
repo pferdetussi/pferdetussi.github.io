@@ -111,7 +111,7 @@ table td { padding:0.2em 0 }
 .suffix_10 { padding-right: 83.333%; }
 .suffix_11 { padding-right: 91.666%; }
 /*=BRANDING */
-#branding,#branding a 	{ background:url(/web/20171024214756im_/http://www.heilehufe.de/images/branding.png) 0 0 no-repeat; overflow:hidden; display:block; text-indent:-9000px; position:absolute; width:37.8%; height:173px; left:31.3%; top:50px; }
+#branding,#branding a 	{ background:url(/images/branding.png) 0 0 no-repeat; overflow:hidden; display:block; text-indent:-9000px; position:absolute; width:37.8%; height:173px; left:31.3%; top:50px; }
 .hidden { display:none }
 .clear { clear:both; float:none }
 .floatLeft { float:left }
