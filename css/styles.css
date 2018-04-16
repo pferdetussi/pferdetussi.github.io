@@ -109,43 +109,24 @@ nav.naviHeader  { background:url(/images/bg-navi.jpg) 0 top no-repeat; width:100
 #navi 			{ width:960px; height:50px; margin:0 auto; padding:0 14px 0 4px; position:relative; }
 #navi > li 		{ float:left; height:50px; padding:17px 10px 0 10px; }
 #navi > li:hover,
-#navi > li.active 		 { background:url(/images/bg-li-hover.jpg) repeat-x; width:auto; }
+
 #navi > li > span,
 #navi > li > a   		 { font-family:"oswaldregular", Arial, Helvetica, sans-serif; color:#d7f000; text-decoration:none; font-size:1.2667em; height:35px; display:block;}
 #navi > li > a:hover,
 #navi > li > a.active,
 #navi > li > span:hover,
-#navi > li > span.active { background:url(/images/navi-a-hover.png) center bottom no-repeat; }
+
 
 #navi > li > ul 		 { opacity:0; position:absolute; text-indent:-9999px; -webkit-transition:opacity 0.4s ease-in-out; -moz-transition:opacity 0.4s ease-in-out; -o-transition:opacity 0.4s ease-in-out; -ms-transition:opacity 0.4s ease-in-out; transition:opacity 0.4s ease-in-out;}
 #navi > li:hover > ul 	 { opacity:1; text-indent:0; top:50px; left:100px; z-index:1; background:#45310E; width:260px; border-top:3px solid #fff;}
 #navi > li:hover > ul > li > a 		  	   { text-align:left; border-bottom:1px solid #fff; color:#fffcea; text-decoration:none; padding:14px; }
 #navi > li:hover > ul > li > a.last-child  { border-bottom:none; }
 #navi > li:hover > ul > li > a:hover,
-#navi > li:hover > ul > li > a.active { background-color:#885C15; }
+
 
 }
 
-/*---------- Mobile Link ----------*/
-#mobile-link {
-	background: #839100;
-	clear: both;
-	display:none;
-	position: relative;
-	z-index: 10;
-}
 
-#mobile-link .btn-mobile {
-	background:url(/images/mobile/icon-mobile.png) no-repeat 5% center;
-	font: bold 16px/normal Arial, Helvetica, sans-serif;
-	color: #fff;
-	text-align: center;
-	text-decoration: none;
-	text-transform: uppercase;
-	display: block;
-	margin: 0 auto;
-	padding: 50px 10px;
-}
 /*
      FILE ARCHIVED ON 22:33:23 Oct 24, 2017 AND RETRIEVED FROM THE
      INTERNET ARCHIVE ON 12:18:26 Apr 16, 2018.
