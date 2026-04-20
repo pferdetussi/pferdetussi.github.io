@@ -237,12 +237,21 @@
     }
 
     var navLinks = collapseEl.querySelectorAll(
-      ".nav-link, .dropdown-item, .btn",
+      '.nav-link:not([data-bs-toggle="dropdown"]), .dropdown-item, .btn',
     );
     var i;
 
     for (i = 0; i < navLinks.length; i += 1) {
-      navLinks[i].addEventListener("click", function () {
+      navLinks[i].addEventListener("click", function (event) {
+        var currentTarget = event.currentTarget;
+
+        if (
+          currentTarget &&
+          currentTarget.getAttribute("data-bs-toggle") === "dropdown"
+        ) {
+          return;
+        }
+
         if (window.innerWidth < 992 && collapseEl.classList.contains("show")) {
           window.bootstrap.Collapse.getOrCreateInstance(collapseEl).hide();
         }
